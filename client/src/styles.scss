@@ -1,8 +1,23 @@
-$lightblue: #6fd1d1; 
+$lightblue: #80c3c3; 
 
 .app {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
   .container {
-   
+    width: 1024px;
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: inherit;
+    }
+    
     //Login & Register
     .auth {
       display: flex;
@@ -35,7 +50,7 @@ $lightblue: #6fd1d1;
         button {
           padding: 10px;
           border: none;
-          background-color: teal;
+          background-color: rgb(0, 92, 128);
           cursor: pointer;
           color: white;
         }
@@ -50,7 +65,8 @@ $lightblue: #6fd1d1;
           font-size: 12px;
           text-align: center;
         }
-      }
+      }    
     }
   }
 }
+
